@@ -1,0 +1,11 @@
+canvas {
+	background: white;
+}
+
+#canvas_container {
+	background: lightgrey;
+}
+
+#old_moves_data {
+	display: none;
+}
