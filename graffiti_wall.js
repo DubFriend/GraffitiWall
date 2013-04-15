@@ -17,7 +17,7 @@
                     storedColor = Move.c || storedColor;
                     storedSize = Move.s || storedSize;
 
-                    Context.fillStyle = storedColor;
+                    Context.fillStyle = '#' + storedColor;
                     Context.beginPath();
                     Context.arc(Move.x, Move.y, storedSize, 0, TWOPI, true);
                     Context.closePath();
